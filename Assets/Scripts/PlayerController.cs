@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
+ 
+
     public int speed = 1;
     public float aimAngle;
     
@@ -36,5 +38,7 @@ public class PlayerController : MonoBehaviour
 
         //checks for mouse location
         //Debug.Log("looking = " + lookDir);
+      
+       
     }
 }
