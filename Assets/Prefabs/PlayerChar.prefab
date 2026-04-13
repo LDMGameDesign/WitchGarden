@@ -137,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4738853526221806161}
-  - component: {fileID: 7806179217615021700}
+  - component: {fileID: 5768078485227280123}
   m_Layer: 0
   m_Name: projSpawn
   m_TagString: Untagged
@@ -154,13 +154,13 @@ Transform:
   m_GameObject: {fileID: 2890133169148793367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.158, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4352053771852209364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7806179217615021700
+--- !u!114 &5768078485227280123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
   projSpawn: {fileID: 4738853526221806161}
   playerProj: {fileID: 473048554565838856, guid: ff11d298354e6854d8cc6318f5981bb0, type: 3}
-  playerCam: {fileID: 0}
+  playerCam: {fileID: 427466422875916842}
   projForce: 20
 --- !u!1 &5916449916229323979
 GameObject:
@@ -187,7 +187,6 @@ GameObject:
   - component: {fileID: 8346421869487380305}
   - component: {fileID: 2113582007920619414}
   - component: {fileID: 95719515163508032}
-  - component: {fileID: 683346673678669508}
   m_Layer: 0
   m_Name: PlayerSprite
   m_TagString: Untagged
@@ -291,33 +290,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &683346673678669508
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5916449916229323979}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &8293451640393320276
 GameObject:
   m_ObjectHideFlags: 0
