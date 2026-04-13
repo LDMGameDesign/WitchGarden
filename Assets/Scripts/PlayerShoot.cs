@@ -6,7 +6,7 @@ public class PlayerShoot : MonoBehaviour
     public GameObject playerProj;
     public Camera playerCam;
 
-    public float projForce = 20f;
+    public float projForce = 10f;
 
     Vector3 mousePos;
 
