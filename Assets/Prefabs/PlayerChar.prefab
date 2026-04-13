@@ -279,7 +279,7 @@ Animator:
   m_GameObject: {fileID: 5916449916229323979}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7b0024562228a2d45940ed139cf00971, type: 2}
+  m_Controller: {fileID: 9100000, guid: 333f571d5a6a48f47bb892928d0f5db1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -424,5 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a870b3348031c8345b7a71f189279f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharControl
+  spriteRender: {fileID: 2113582007920619414}
+  playerAnim: {fileID: 95719515163508032}
   speed: 2
   aimAngle: 0
